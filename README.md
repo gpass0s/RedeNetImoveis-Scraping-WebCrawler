@@ -13,6 +13,6 @@ OBS: Esse crawler extrai as informações importantes por meio do json da págin
   
   4 - Na aba network, dê um refresh na página (F5), aguarde o java script fazer as chamadas nas APIs do site e carregar o HTML. 
   
-  5 - Após o carregamento, abra o segundo link da busca que contém a mensagem Json. 
+  5 - Após o carregamento, abra o link json que contenha as infomações específicas do imóvel. 
   
   6 - Remova todas as informações no link após "?pagina=1" e cole esse link na linha sete do código sem o numero. Pois esse será iterado. 
