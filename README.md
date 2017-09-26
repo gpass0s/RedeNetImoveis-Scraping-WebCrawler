@@ -5,11 +5,11 @@ Por ser belo horizontino de coração, o código escrito extrai informações da
 
 OBS: Esse o crawler extrai as informações importantes por meio do do json da página que é mais eficiente do que realizar tal tarefa interagindo com o java script. Para obter o json siga os seguintes passos: 
   
-  1 - Abra o site https://www.netimoveis.com no google chrome,
+  1 - Abra o site https://www.netimoveis.com no google chrome.
   
-  2 - Realize a busca que desejas,
+  2 - Realize a busca que desejas.
   
-  3 - Com a página do resultado da busca aberto, clique com o botão direito em alguma área em branco e selecione a opção inspecionar
+  3 - Com a página do resultado da busca aberto, clique com o botão direito em alguma área em branco e selecione a opção inspecionar.
   
   4 - Na aba network, dê um refresh na página (F5), aguarde o java script fazer as chamadas nas APIs do site e carregar o HTML. 
   
