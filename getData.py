@@ -1,8 +1,7 @@
 import urllib.request
 
-imoveis = ['INDEX','PREÇO','ÁREA', 'LONGITUDE', 'LATITUDE', 'QTDE_QUARTOS', 'QTDE_BANHEIROS','QTDE_SUITES',
-            'VAGAS_GARAGEM','PRECO','VALOR_CONDOMINIO','VALOR_IPTU', 'PAGE', 
-            'CIDADE','REGIAO','BAIRRO','RUA','NUMERO']
+imoveis = ['Line','Imovel_ID','Preço,Area','Latitude','Longitude','Qtde_Quartos','Qtde_Banheiros','Qtde_Suites'
+            'Vagas_Garagem','Valor_IPTU','Valor_Cond','Regiao','Bairro','Rua,Numero']
 
 print (','.join(imoveis))
 page = 1
@@ -30,7 +29,6 @@ while True:
         my_list.append(str(json ['vagaGaragem']))
         my_list.append(str(json ['valorCondominio']))
         my_list.append(str(json ['valorIptu']))
-        my_list.append(str(page))
         my_list.append(str(json ['nomeCidadeAl']))
         my_list.append(str(json ['nomeRegiaoAl']))
         my_list.append(str(json ['nomeBairro']))
