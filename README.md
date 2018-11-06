@@ -3,7 +3,7 @@ Neste repositório encontra-se um simples script que escrevi para extrair alguma
 
 Por ser belo horizontino de coração, o código escrito extrai informações da cidade de Belo Horizonte, mas isso pode ser facilmente alterado. Basta alterar o link do json na linha 7 do código. No meu caso esse link é: https://www.netimoveis.com/venda/minas-gerais/belo-horizonte/apartamento/?pagina= + itr 
 
-OBS: Esse crawler extrai as informações importantes por meio do json da página que é mais eficiente do que realizar tal tarefa interagindo com o java script. Para obter o json siga os seguintes passos: 
+OBS: Esse crawler extrai as informações importantes por meio do json da página que é mais eficiente do que realizar tal tarefa interagindo com o java script. Para obter o link do json da consulta siga os seguintes passos: 
   
   1 - Abra o site https://www.netimoveis.com no google chrome.
   
