@@ -1,18 +1,7 @@
 # RedeNetImoveis-Scraping-WebCrawler
-Neste repositório encontra-se um simples script que escrevi para extrair algumas informações dos anúncios do site da Rede Net Imoveis a fim de obter um dataSet para o meu trabalho de conclusão de curso. Se você trabalha para essa empresa, por favor não fique zangado :). Meu único objetivo é obter dados para brincar de ML e Data Science... :) 
 
-Por ser belo horizontino de coração, o código escrito extrai informações da cidade de Belo Horizonte, mas isso pode ser facilmente alterado. Basta alterar o link do json na linha 7 do código. No meu caso esse link é: https://www.netimoveis.com/venda/minas-gerais/belo-horizonte/apartamento/?pagina= + itr 
+In this repository I devoloped a simple web crawler that is able to scrap data from the <a href=https://www.netimoveis.com> Rede Net Imoveis </a> portal. I did it in order to get data for my <a heref=https://github.com/gpass0s/Graduation_Project/tree/master> gradutation project </a> which is basically a data analysis of Belo Horizonte housing market prices. 
 
-OBS: Esse crawler extrai as informações importantes por meio do json da página que é mais eficiente do que realizar tal tarefa interagindo com o java script. Para obter o link do json da consulta siga os seguintes passos: 
+This code basically interacts with the JSON object that is requested by the site API when a search is made. In order to obtain this JSON object you have to inspect on your broswer the requests made during a serach in the portal. For my spefic case the JSON object looks something like<a href= https://www.netimoveis.com/venda/minas-gerais/belo-horizonte/apartamento/?pagina=1> this </a>.
+
   
-  1 - Abra o site https://www.netimoveis.com no google chrome.
-  
-  2 - Realize a busca que desejas.
-  
-  3 - Com a página do resultado da busca aberto, clique com o botão direito em alguma área em branco e selecione a opção inspecionar.
-  
-  4 - Na aba network, dê um refresh na página (F5), aguarde o java script fazer as chamadas nas APIs do site e carregar o HTML. 
-  
-  5 - Após o carregamento, abra o link json que contenha as infomações específicas do imóvel. 
-  
-  6 - Remova todas as informações no link após "?pagina=1" e cole esse link na linha sete do código sem o numero. Pois esse será iterado. 
